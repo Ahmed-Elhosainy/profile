@@ -1,0 +1,209 @@
+/* start main Rulez*/
+
+body,
+html {
+    white-space: nowrap;
+}
+
+a,
+pre,
+p,
+span,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    white-space: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    display: block;
+}
+
+
+/* end main rules */
+
+
+/* start header */
+
+.header .slider {
+    background-color: #EEE;
+    height: 400px;
+}
+
+.header .navbar {
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+}
+
+.header .navbar h2 {
+    float: left;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+.header .navbar h2 span {
+    color: green;
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: left;
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px
+}
+
+
+/* end header */
+
+
+/* start features */
+
+.features {
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.features .feet {
+    width: 33.333%;
+    height: 150px;
+    float: left;
+}
+
+.features .feet h2 {
+    text-transform: uppercase;
+}
+
+
+/* end features */
+
+
+/* start About me */
+
+.about-me {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.about-me .image {
+    float: left;
+    width: 40%;
+}
+
+.about-me .image img {
+    width: 100%;
+}
+
+.about-me .info {
+    float: left;
+    width: 60%;
+}
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin: 20px;
+}
+
+.about-me .info .hobbies>div {
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+
+
+/* end About me */
+
+
+/* start my skills */
+
+.my-skills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my-skills .skills,
+.my-skills .progress {
+    float: left;
+    padding: 20px;
+    width: 50%;
+}
+
+
+/* end my skills */
+
+
+/* start resume\ */
+
+.resume {
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.resume h2,
+.resume button {
+    text-transform: uppercase;
+}
+
+
+/* end resume */
+
+
+/* start my education */
+
+.my-education {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my-education .education,
+.my-education .certificates {
+    float: left;
+    padding: 20px;
+    width: 50%;
+}
+
+
+/* end my education */
+
+
+/* start my experiences */
+
+.my-experience {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my-experience .main,
+.my-experience .experience {
+    float: left;
+    padding: 20px;
+    width: 50%;
+}
+
+
+/* end my experiences */
